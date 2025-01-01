@@ -34,5 +34,5 @@ func reverseLettersInWords(input []byte) {
 }
 
 func isEndOfWord(input []byte, index int) bool {
-    return (index == len(input) - 1 || input[index+1] == EMPTY_SPACE) && input[index] != EMPTY_SPACE
+    return (index == len(input) - 1 || input[index + 1] == EMPTY_SPACE) && input[index] != EMPTY_SPACE
 }
